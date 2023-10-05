@@ -1,0 +1,25 @@
+.table-wrapper {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+table {
+    width: 100%;
+    min-width: 400px;
+    border-spacing: 0;
+    font-size: .95em;
+}
+
+thead {
+    background-color: var(--grisMedio);
+}
+
+tr {
+    text-align: left;
+}
+
+th, 
+td {
+    text-transform: capitalize;
+    padding: 15px 10px;
+}

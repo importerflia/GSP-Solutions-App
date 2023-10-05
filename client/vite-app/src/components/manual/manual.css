@@ -1,0 +1,18 @@
+.manual {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.templates {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.templates a {
+    margin-top: 15px;
+}
